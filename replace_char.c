@@ -3,9 +3,10 @@
 
 int main() {
 
-    char tab[50];
+    char tab[100];
     char a , b ;
-    //fgets(str, a, b, sizeof(str), sizeof(a), sizeof(b), stdin);
+    //fgets(tab, sizeof(tab),stdin);
+
     scanf("%s %c %c", tab, &a, &b);
     
     for (int i = 0; tab[i] != '\0'; i++){
@@ -14,6 +15,6 @@ int main() {
         }
     }
 
-    printf("Résultat : %s\n", tab);
+    printf("%s\n", tab);
     return 0;
 }
