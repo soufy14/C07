@@ -10,7 +10,7 @@ while (tab1[l1] != '\0')
 {
     l1++;
 }
-while (tab1[l2] != '\0')
+while (tab2[l2] != '\0')
 {
     l2++;
 }
