@@ -18,6 +18,6 @@ while (tab2[l2] != '\0')
         tab1[l1 + i] = tab2[i];
     }
 
-    printf("%s\n", tab1);
+    printf("Chaîne concaténée : %s\n", tab1);
     return 0;
 }
