@@ -2,12 +2,11 @@
 #include <string.h>
 #include <ctype.h>
 
-
 int main() {
+    char tab[100];
+    int count = 0, i = 0;  // initialisation de i
 
-   char tab[100];
-   int count = 0, i ;
-   fgets(tab, sizeof(tab), stdin);
+    fgets(tab, sizeof(tab), stdin);  // lire une phrase avec espaces
     
     int in_word = 0;
 
@@ -22,7 +21,6 @@ int main() {
     }
 
     printf("Nombre de mots : %d\n", count);
-
 
     return 0;
 }
